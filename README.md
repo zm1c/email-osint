@@ -42,3 +42,18 @@ Clona el repositorio:
 ```bash
 git clone https://github.com/zm1c/email-osint.git
 cd email-osint
+```
+
+## 📦 Requisitos
+
+```bash
+pip install -r requirements.txt
+```
+
+## 🔥 Uso
+
+Ejecuta el script:
+
+```bash
+python3 email-scanner.py
+```
