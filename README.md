@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="img/demo.png" alt="demo" width="700"/>
+  <img src="img/tool.png" alt="tool" width="700"/>
 </p>
 
 ---
@@ -14,49 +14,31 @@
 
 - [🎯 Descripción](#-descripción)
 - [🚀 Características](#-características)
-- [📸 Captura de pantalla](#-captura-de-pantalla)
 - [🛠️ Instalación](#️-instalación)
-- [🧪 Uso](#-uso)
 - [📦 Requisitos](#-requisitos)
-- [⚖️ Licencia](#️-licencia)
-- [👤 Autor](#-autor)
+- [🧪 Uso](#-uso)
 
 ---
 
 ## 🎯 Descripción
 
-**Email OSINT Tool** permite realizar investigaciones OSINT sobre direcciones de correo electrónico. Puede ayudarte a descubrir:
-
-- Servicios donde está registrado un email.
-- Filtraciones de datos.
-- Información pública accesible en línea.
-
-Diseñada para **auditoría ética**, análisis forense y pentesting.
+**Email OSINT Tool** es una herramienta de análisis e investigación OSINT enfocada en correos electrónicos. Permite identificar servicios en los que un correo está registrado, verificar su exposición en filtraciones y obtener datos relevantes para auditorías éticas o investigaciones de ciberseguridad.
 
 ---
 
 ## 🚀 Características
 
-- 🔍 Integración con [Holehe](https://github.com/megadose/holehe)
-- 🧠 Consulta contra APIs como LeakCheck
-- 🎨 Interfaz con colores y arte ASCII
-- 🛡️ Orientada a seguridad y privacidad
-
----
-
-## 📸 Captura de pantalla
-
-![demo](img/tool.png)
-
-> Vista de ejecución en terminal
+- 🔍 Integración con [Holehe](https://github.com/megadose/holehe) para análisis de servicios en línea.
+- 🧠 Verificación de filtraciones en bases públicas.
+- 🖼️ Interfaz en consola con arte ASCII y colores.
+- 💡 Ideal para pentesters, analistas SOC y OSINT researchers.
 
 ---
 
 ## 🛠️ Instalación
 
-Clona el repositorio y entra al directorio:
+Clona el repositorio:
 
 ```bash
 git clone https://github.com/zm1c/email-osint.git
 cd email-osint
-python3 email-osint.py
